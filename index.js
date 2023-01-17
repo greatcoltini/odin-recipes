@@ -1,4 +1,4 @@
-const recipes = ["recipes/chocolatechipcookies.html", "recipes/cheesecake.html"];
+const recipes = ["recipes/chocolatechipcookies.html", "recipes/cheesecake.html", "recipes/brownies.html", "recipes/ricekrispies.html"];
 
 function random_recipe()
 {
