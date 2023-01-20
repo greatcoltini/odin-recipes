@@ -53,3 +53,7 @@ h1 {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
+.cross {
+  text-decoration: line-through !important;
+}

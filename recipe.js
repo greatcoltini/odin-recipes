@@ -1,15 +1,25 @@
-
-
-function toggle_equipment()
+function show_equipment()
 {
     sidebar = document.getElementById("sidebar");
-    collapse_true = document.getElementsByClassName("collapse");
+    var collapse = new bootstrap.Collapse(sidebar);
 
-    if (collapse_true.includes(sidebar))
+    collapse("show");
+}
+
+function cross(element)
+{
+    // toggle_class(element, 'cross');
+    element.classList.add('cross');
+}
+
+function toggle_class(element, class_t)
+{
+    if (element.classList.includes(class_t))
     {
-        sidebar.classList.remove("collapse");
+        element.classList.remove(class_t);
     }
-    else {
-        sidebar.classList.add("collapse");
+    else
+    {
+        element.classList.add(class_t);
     }
 }

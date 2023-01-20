@@ -22,7 +22,7 @@
 <body>
 
     <!-- HEADER SECTION -->
-    <header>
+    <header style="position:sticky; top:0; z-index: 99">
         <div class="collapse bg-dark" id="navbarHeader">
           <div class="container">
             <div class="row">
@@ -64,29 +64,26 @@
                     <p class="lead text-muted">A collection of dessert recipes, created as per the Odin Project -
                         Recipes assignment.</p>
                     <p>
-                        <a onclick='random_recipe()' class="btn btn-primary my-2">RANDOM RECIPE</a>
-                        <a href="#" class="btn btn-secondary my-2">SCROLL TO BOTTOM</a>
+                        <a onclick='random_recipe()' class="btn btn-primary my-1">RANDOM RECIPE</a>
                     </p>
                 </div>
             </div>
         </section>
 
         <!-- ALBUM OF RECIPES -->
-        <div class="album py-5 bg-light">
+        <div class="album bg-light">
             <div class="container">
-
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
-
                     <!-- CHOCOLATE CHIP COOKIES -->
                     <div class="col">
                         <div class="card shadow-sm">
-                            <h1 class="fw-light">Chocolate Chip Cookies</h1>
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                 preserveAspectRatio="xMidYMid slice" focusable="false">
                                 <title>Placeholder</title>
                                 <rect width="100%" height="100%" fill="#55595c"></rect>
                                 <image href="assets\chocolate-chip-cookie.jpg" width="100%"></image>
+                                <a> Hello </a>
                             </svg>
 
                             <div class="card-body">
@@ -96,7 +93,7 @@
                                         <a href="recipes/chocolatechipcookies.html" class="btn btn-primary my-2">GO
                                             TO</a>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
+                                    <small class="text-muted">30 mins</small>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +103,6 @@
                     <!-- https://www.loveandlemons.com/brownies-recipe/ -->
                     <div class="col">
                         <div class="card shadow-sm">
-                            <h1 class="fw-light">Brownies</h1>
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                 preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -119,7 +115,7 @@
                                 <p class="card-text"></p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="recipes/chocolatechipcookies.html" class="btn btn-primary my-2">GO
+                                        <a href="recipes/brownies.html" class="btn btn-primary my-2">GO
                                             TO</a>
                                     </div>
                                     <small class="text-muted">45+ mins</small>
@@ -129,10 +125,9 @@
                     </div>
 
                     <!-- RICE KRISPIES -->
-                    <!-- https://www.onceuponachef.com/recipes/best-ever-rice-krispies-treats.html -->
+                    <!-- https://www.ricekrispies.ca/en_CA/recipes/squares-original-recipe-recipe.html -->
                     <div class="col">
                         <div class="card shadow-sm">
-                            <h1 class="fw-light"> Rice Krispies</h1>
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                 preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -144,7 +139,7 @@
                             <div class="card-body">
                                 <p class="card-text"></p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <a href="recipes/chocolatechipcookies.html" class="btn btn-primary my-2">GO TO</a>
+                                    <a href="recipes/ricekrispies.html" class="btn btn-primary my-2">GO TO</a>
                                     <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
@@ -155,7 +150,6 @@
                     <!-- https://sugarspunrun.com/best-cheesecake-recipe/ -->
                     <div class="col">
                         <div class="card shadow-sm">
-                            <h1 class="fw-light">Cheesecake</h1>
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                 preserveAspectRatio="xMidYMid slice" focusable="false">
